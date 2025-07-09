@@ -1,38 +1,43 @@
 .robot-container {
+  position: relative;
+  height: 80%;
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  top: 10%;
 }
 
 .robot-face-shape {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(https://polishedmetals.com/wp-content/uploads/2020/09/Stainless-Steel-shutterstock_661808035.jpg);
+  background-size: cover;
+  border: 20px solid black;
+  border-radius: 100px;
 }
-
 .robot-eye-left {
 }
-
 .robot-eye-right {
 }
-
 .robot-ear-left {
 }
-
 .robot-ear-right {
 }
-
 .robot-nose {
 }
-
 .robot-teeth {
 }
-
 .robot-tooth {
 }
-
 .robot-hair-style {
 }
-
 .robot-hair-one {
 }
-
 .robot-hair-two {
 }
-
 .robot-hair-three {
 }
