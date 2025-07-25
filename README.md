@@ -60,12 +60,12 @@ This assignment should prove that a student is able to:
   - [x] It should be horizontally centered to the viewport width and height.
   - [x] The container should not overlap the header section.
 - [ ] Style the shape of the robot face to follow the requirements:
-  - [ ] Should be a simple shape (square, circle, oval).
-  - [ ] Should have a border of any style, color and width.
+  - [x] Should be a simple shape (square, circle, oval).
+  - [x] Should have a border of any style, color and width.
   - [ ] The face parts should NOT touch the border in their static positions.
-  - [ ] The corners of the face shape should NOT be a straight (right) angle.
+  - [x] The corners of the face shape should NOT be a straight (right) angle.
 - [ ] Create unique random shapes for the following internal elements of the face:
-  - [ ] Left eye
+  - [x] Left eye
   - [ ] Right eye
   - [ ] Nose
   - [ ] Mouth

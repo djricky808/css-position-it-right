@@ -20,9 +20,44 @@
   border-radius: 100px;
 }
 .robot-eye-left {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid rgb(166, 1, 1);
+  position: relative;
+  left: 20%;
+  top: 20%;
 }
+
+.robot-eye-left::after {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid rgb(166, 1, 1);
+  position: absolute;
+  content: "";
+  top: 30px;
+  left: -50px;
+}
+
 .robot-eye-right {
+  width: 100px;
+  height: 100px;
+  background: rgb(137, 223, 8);
+  position: relative;
+  left: 60%;
+  aspect-ratio: 1;
+  --o: calc(50% * tan(-22.5deg));
+  clip-path: polygon(
+    var(--o) 50%,
+    50% var(--o),
+    calc(100% - var(--o)) 50%,
+    50% calc(100% - var(--o))
+  );
 }
+
 .robot-ear-left {
 }
 .robot-ear-right {
