@@ -1,7 +1,7 @@
 .robot-container {
   position: relative;
-  height: 80%;
-  width: 80%;
+  height: 800px;
+  width: 800px;
   background-color: white;
   margin: 0 auto;
   top: 10%;
@@ -59,8 +59,22 @@
 }
 
 .robot-ear-left {
+  width: 100px;
+  height: 200px;
+  border-radius: 100px 0 0 100px;
+  background-color: blue;
+  position: absolute;
+  top: 250px;
+  left: 50px;
 }
 .robot-ear-right {
+  width: 100px;
+  height: 200px;
+  border-radius: 0 100px 100px 0;
+  background-color: blueviolet;
+  position: absolute;
+  left: 650px;
+  top: 250px;
 }
 .robot-nose {
 }

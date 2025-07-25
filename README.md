@@ -66,14 +66,14 @@ This assignment should prove that a student is able to:
   - [x] The corners of the face shape should NOT be a straight (right) angle.
 - [ ] Create unique random shapes for the following internal elements of the face:
   - [x] Left eye
-  - [ ] Right eye
+  - [x] Right eye
   - [ ] Nose
   - [ ] Mouth
   - [ ] Teeth/tooth
   - [ ] **!!!Optional** Add any other part you want.
 - [ ] Create unique random shapes for the following external elements of the face:
   - [ ] Hair style
-  - [ ] Left ear
+  - [x] Left ear
   - [ ] Right ear
   - [ ] **!!!Optional** Add any other part you want.
 - [ ] Shapes must follow the guidelines:
